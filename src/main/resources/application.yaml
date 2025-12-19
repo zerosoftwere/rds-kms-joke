@@ -21,3 +21,8 @@ springdoc:
 server:
   port: ${PORT:8080}
 
+logging:
+  structured:
+    format:
+      console: ecs
+
